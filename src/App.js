@@ -6,7 +6,6 @@ import AdditionalFeatures from './components/AdditionalFeatures';
 import Total from './components/Total';
 
 const App = (props) => {
-  console.log(props)
   
   return (
     <div className="boxes">
@@ -16,7 +15,7 @@ const App = (props) => {
       </div>
       <div className="box">
         <AdditionalFeatures/>
-        {/* <Total car={props.car} additionalPrice={props.additionalPrice} /> */}
+        <Total/>
       </div>
     </div>
   );
